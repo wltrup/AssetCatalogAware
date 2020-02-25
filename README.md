@@ -1,8 +1,13 @@
 # AssetCatalogAware
+![](https://img.shields.io/badge/platforms-iOS%2013%20%7C%20tvOS%2013%20%7C%20watchOS%206-red)
+[![Xcode](https://img.shields.io/badge/Xcode-11-blueviolet.svg)](https://developer.apple.com/xcode)
+[![Swift](https://img.shields.io/badge/Swift-5.1-orange.svg)](https://swift.org)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/wltrup/AssetCatalogAware)
+![GitHub](https://img.shields.io/github/license/wltrup/AssetCatalogAware)
 
 ## What
 
-**AssetCatalogAware** is a Swift Package Manager package for iOS versions 13.0 and above, defining protocols and functions to access Strings, SwiftUI Fonts, System Images, non-system Images, and Colors, all in a type-safe manner. If you need to support iOS versions below 13.0, you might want to look at [AssetCatalogAwarePre13](https://github.com/wltrup/AssetCatalogAwarePre13), instead.
+**AssetCatalogAware** is a Swift Package Manager package for iOS/tvOS (13.0 and above) and watchOS (6.0 and above) defining protocols and functions to access Strings, SwiftUI Fonts, System Images, non-system Images, and Colors, all in a type-safe manner. If you need to support iOS/tvOS versions below 13.0 and/or watchOS versions below 6.0, you might want to look at [AssetCatalogAwarePre13](https://github.com/wltrup/AssetCatalogAwarePre13), instead.
 
 An actual practical use of **AssetCatalogAware** is my [**Assets**](https://github.com/wltrup/Assets) framework, which also provides example projects for both UIKit and SwiftUI.
 

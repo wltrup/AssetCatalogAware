@@ -5,6 +5,11 @@ import PackageDescription
 
 let package = Package(
     name: "AssetCatalogAware",
+    platforms: [
+        .iOS(.v13),
+        .watchOS(.v6),
+        .tvOS(.v13)
+    ],
     products: [
         .library(
             name: "AssetCatalogAware",
